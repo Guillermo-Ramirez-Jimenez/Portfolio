@@ -1,69 +1,86 @@
-# React + TypeScript + Vite
+# Guillermo Ramírez Jiménez – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This site showcases my projects, skills, and contact information. I’m a junior Frontend Developer specialized in **React** and **TypeScript**, with experience in building responsive and interactive web applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies & Tools
 
-## Expanding the ESLint configuration
+- **Frontend:** React, TypeScript, TailwindCSS, HTML, SASS  
+- **State Management & API:** Axios, REST API  
+- **Deployment:** Vercel, GitHub Pages  
+- **Other Tools:** Framer Motion, Bootstrap, Git  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 💻 Featured Projects
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### ClientFlow (Featured)
+A **React & TypeScript** client management dashboard with CRUD functionality, input debouncing, filtering and sorting. Styled with Tailwind and deployed on Vercel.  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Tech Stack:** React, TypeScript, Tailwind, Axios  
+**Live Demo:** [client-flow-bay.vercel.app](https://client-flow-bay.vercel.app/)  
+**GitHub:** [ClientFlow Repo](https://github.com/Guillermo-Ramirez-Jimenez/ClientFlow)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Lessons Learned:**  
+- Styling with Tailwind  
+- CRUD with Axios  
+- Input debouncing  
+- Derived state (filtering and ordering)  
+- Custom basic API with mockAPI  
+- Deployment on Vercel  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Rick and Morty Explorer (React)
+A character explorer built with React and TypeScript, consuming the Rick and Morty API. Features filtering, search, and modular component structure.  
+
+**Tech Stack:** React, TypeScript, Bootstrap  
+**Live Demo:** [Live Demo](https://guillermo-ramirez-jimenez.github.io/rick-and-morty-explorer-react/)  
+**GitHub:** [Repo](https://github.com/Guillermo-Ramirez-Jimenez/rick-and-morty-explorer-react)  
+
+**Lessons Learned:**  
+- Basic React concepts  
+- Safe typing with TypeScript  
+
+---
+
+### Other Projects
+- **Rick and Morty Explorer (Vanilla JS):** API integration, dynamic filtering, pagination.  
+- **Art Gallery:** Multi-page HTML & SASS site with Google Maps integration.  
+- **ConquerBlocks Website:** Company landing page with responsive layout.  
+- **Portfolio Website:** This portfolio! Built with React, TypeScript, Tailwind.  
+- **SpaBeauty:** Simple Vite website with HTML & SASS.  
+- **Online Forum:** HTML & SASS practice project.  
+
+---
+
+## 📫 Contact Me
+
+- **Email:** guillermo.ramirez.jimenez.0@gmail.com  
+- **GitHub:** [Guillermo-Ramirez-Jimenez](https://github.com/Guillermo-Ramirez-Jimenez)  
+- **LinkedIn:** [Guillermo Ramírez Jiménez](https://www.linkedin.com/in/guillermo-ram%C3%ADrez-jim%C3%A9nez/)  
+
+---
+
+## ⚡ About Me
+
+I am a junior front end developer focused on **React** and **TypeScript**. My background is in **electrical engineering**, but I discovered my passion for programming and web development. I’m also interested in 3D printing, embedded systems, PCB design, retro game consoles, and board games in my free time.
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Guillermo-Ramirez-Jimenez/portfolio.git
+
+# Navigate to the folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
