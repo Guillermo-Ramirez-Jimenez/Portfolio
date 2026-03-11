@@ -1,6 +1,6 @@
 # Guillermo Ramírez Jiménez – Portfolio
 
-Welcome to my personal portfolio! This site showcases my projects, skills, and contact information. I’m a junior Frontend Developer specialized in **React** and **TypeScript**, with experience in building responsive and interactive web applications.
+Welcome to my personal portfolio! This site showcases my projects, skills, and contact information. I'm a junior Frontend Developer specialized in **React** and **TypeScript**, with experience in building responsive and interactive web applications.
 
 ---
 
