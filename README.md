@@ -26,3 +26,9 @@ npm install
 # Start the development server
 npm run dev
 ```
+
+---
+
+## 🚀 Live Demo
+
+[Live Application](https://portfolio-pearl-sigma-43.vercel.app/)
