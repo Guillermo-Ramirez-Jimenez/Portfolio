@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiVercel } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiVercel, SiMysql } from "react-icons/si";
 
 const skills = [
     { name: "React", icon: <FaReact className="text-blue-400" /> },
@@ -10,6 +10,7 @@ const skills = [
     { name: "Tailwind", icon: <SiTailwindcss className="text-teal-400" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { name: "Vercel", icon: <SiVercel className="text-white" /> },
+    { name: "MySQL", icon: <SiMysql className="text-white" />}
 ];
 
 export default function Skills() {
